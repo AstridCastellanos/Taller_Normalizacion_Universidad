@@ -17,6 +17,8 @@ Para eliminar las dependencias parciales que habían los datos que dependían so
 Se eliminaron las dependencias transitivas creando una nueva tabla llamada Asignacion donde se colocaron los datos del docente, aula y horario para que ya no dependen directamente del estudiante. Se crearon tablas independientes para Docentes, Aulas y Horarios. Adicional, la tabla Matriculas se modificó para relacionar a los estudiantes con la Asignacion en lugar de con el Curso.
 ![3FN](./img/3FN.png)
 
+### Diagrama
+![UML E-R](./img/UML%20E-R.png)
 
 ## Archivos SQL
 
